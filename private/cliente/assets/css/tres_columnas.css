@@ -1,0 +1,165 @@
+@charset "utf-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+    background-image: url(../../assets/images/fondo.jpg) ;
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+header {
+	margin-bottom: 10px;
+	width: 100%;
+}
+header img {
+	width: 100%;
+}
+body {
+
+    width: 100%;
+    margin: auto;
+}
+nav a{
+    color:lawngreen;
+}
+h1{
+  color: red;
+}
+nav {
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+    border-radius: 10px;
+    height: max-content;
+    margin: 5px;
+    border-style:groove;
+    border-color: #17202A;
+    background-color: #586356;
+    
+}
+
+nav.navbar {
+    background-color: #CC1414;
+  }
+
+  nav.ul.li a {
+      color:lawngreen;
+  }
+nav input[type=button], input[type=submit], input[type=reset] {
+    cursor:pointer;
+  width:100%;
+  border:none;
+  background:#0CF;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+  }
+nav li{
+    margin: 10px;
+}
+section {
+    width: 50%;
+    float: left;
+
+    margin: 10px;
+    border-radius: 10px;
+}
+aside{
+    width: 20%;
+    float: left;
+
+    margin: 10px;
+    border-radius: 10px;
+
+}
+table{
+    display: inline;
+}
+article {
+  text-align: justify;
+}
+
+
+
+/*Hacer la Galeria*/
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .galeria li {
+    margin: 5px;
+  }
+  .galeria img {
+    width: 350px;
+    height: 300px;
+  }
+  /*Nav Horizontal*/
+nav.horizontal ul li {
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 10%;
+    text-align: center;
+    border-style:groove;
+    border-color: #17202A;
+    background-color: #34495E;
+}
+nav.horizontal li{
+     color: black;
+}
+nav.horizontal {
+    display: table;
+    width: 100%;
+    margin: 2 auto;
+    float: none;
+}
+nav.horizontal ul {
+    display: table-row;
+    margin: 0;
+}
+nav.horizontal ul li:last-of-type {
+    margin-right: 10%;
+}
+nav.horizontal a {
+    color: white;
+}
+/*-------------------------------------------*/
+section#team75 img{
+    width: 383px;
+    height: 350px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+}
+aside#otras img{
+    width: 180px;
+    height: 200px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
+}
+.BotonS{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    font-size: larger;
+
+}
+
+nav input{
+color: rgb(228, 9, 9);
+background-color: lightseagreen;
+}

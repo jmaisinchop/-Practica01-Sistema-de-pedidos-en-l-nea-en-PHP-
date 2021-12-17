@@ -1,0 +1,96 @@
+@charset "utf-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+img, object, embed, video {
+	max-width: 100%;
+
+}
+header {
+	margin-bottom: 10px;
+	width: 100%;
+  text-align: justify;
+}
+header img {
+	width: 100%;
+}
+body {
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+
+}
+nav {
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    background-color:#1F618D;  /* Aquí pon el color del fondo que quieras para este lateral */
+    color: white;
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+    border-radius: 10px;
+    height: max-content;
+    margin: 5px;
+    border-left: 20px;
+    border-right:20px;
+
+}
+nav li{
+    margin: 10px;
+}
+section {
+    width: 75%;
+    float: right;
+    background-color: #1F618D;
+    margin: 10px;
+    border-radius: 10px;
+}
+article1{
+  width: 75%;
+  float: right;
+  background-image: url("../images/imgextras/fondo1.jpg");
+  margin: 10px;
+  border-radius: 10px;
+}
+section1 {
+    width: 75%;
+    float: right;
+    background-image: url("../images/imgextras/fondo1.jpg");
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+/*Nav Horizontal*/
+nav.horizontal ul li {
+    display:table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 10%;
+    text-align: center;
+    border-style:groove;
+    border-color: #17202A;
+    background-color: #34495E;
+
+}
+nav.horizontal li{
+     color: BLUE;
+}
+nav.horizontal {
+    display: table;
+    width: 100%;
+    margin: 2 auto;
+    float:inherit;
+}
+nav.horizontal ul {
+    display: table-row;
+    margin: 0;
+}
+nav.horizontal ul li:last-of-type {
+    margin-right: 10%;
+}
+nav.horizontal a {
+    color: white;
+}
